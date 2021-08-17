@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -8,10 +9,9 @@ using UnityEngine.UI;
 public class Submit : MonoBehaviour
 {
     //pythonがある場所
-    private string pyExePath = @"/Users/yusuketakizawa/opt/miniconda3/bin/python";
-
+    private string pyExePath = @"";
     //実行したいスクリプトがある場所
-    private string pyCodePath = @"/Users/yusuketakizawa/mini_coder/Assets/050_scripts/pythonScript/run.py";
+    private string pyCodePath = @"[プロジェクトルート]/Assets/050_scripts/pythonScript/run.py";
 
 
     //オブジェクトと結びつける
